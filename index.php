@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Школа финансовой грамотности</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
 <header>
@@ -22,28 +21,32 @@
         <input type="text" placeholder="Поиск курса">
         <button type="submit"><i class="fa fa-search"></i></button>
     </form>
-    <a href="#" class="login-btn"><i class="fa fa-user"></i> Вход</a>
+    <a href="#" class="login-btn"><i class="fa fa-user"></i> Вход в аккаунт</a>
 </header>
 <main>
     <div class="block">
-        <h2>Вводный раздел. Что мы знаем о финансах?</h2>
-        <p>Текст блока</p>
-        <a href="#" class="start-btn">Начать обучение</a>
+        <h2>Вводный раздел</h2>
+        <p>Что мы знаем о финансах?</p>
+        <a href="#" class="start-btn">Начать обучение</a> 
+        <a href="#" class="start-btn">Пройти тест</a>
     </div>
     <div class="block">
-        <h2>Сам себе калькулятор. Правила личного учёта расхода и доходов.</h2>
-        <p>Текст блока</p>
+        <h2>Сам себе калькулятор</h2>
+        <p>Правила личного учёта расхода и доходов</p>
         <a href="#" class="start-btn">Начать обучение</a>
+        <a href="#" class="start-btn">Пройти тест</a>
     </div>
     <div class="block">
-        <h2>Как формировать подушку безопасности</h2>
-        <p>Текст блока</p>
+        <h2>Подушка безопасности</h2>
+        <p>Как её сформировать?</p>
         <a href="#" class="start-btn">Начать обучение</a>
+        <a href="#" class="start-btn">Пройти тест</a>
     </div>
     <div class="block">
-        <h2>Как инвестировать в 2023 году?</h2>
-        <p>Текст блока</p>
+        <h2>Инвестирование со школьной скамьи - миф или реальность?</h2>
+        <p>О различных способах приумножения капитала</p>
         <a href="#" class="start-btn">Начать обучение</a>
+        <a href="#" class="start-btn">Пройти тест</a>
     </div>
 </main>
 <footer>
@@ -58,6 +61,8 @@
             <li><a href="#">Источник 3</a></li>
         </ul>
     </div>
+    <p>© 2023 Учебный центр "Школа финансовой грамотности". Все права защищены.</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
