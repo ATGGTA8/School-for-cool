@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <title>Школа финансовой грамотности</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <a href="index.html"><img src="img/logo.png" width="64" height="68" alt="Логотип школы"></a>
       <nav>
-        <ul class="navigation-list">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="#">Учебные материалы</a>
+        <ul>
+          <li class="header-navigation-item"><a href="index.html">Главная</a></li>
+          <li class="header-navigation-item"><a href="#">Учебные материалы</a>
+            <li class="header-navigation-item"><a href="#">Учебные материалы</a>
             <ul>
-              <li><a href="#">Материал 1</a></li>
-              <li><a href="#">Материал 2</a></li>
-              <li><a href="#">Материал 3</a></li>
+              <li><a href="#">Вводный раздел</a></li>
+              <li><a href="#">Сам себе калькулятор</a></li>
+              <li><a href="#">Подушка безопасности</a></li>
+              <li><a href="#">Инвестирование</a></li>
             </ul>
           </li>
-          <li><a href="#">Проверка знаний</a></li>
+          <li class="header-navigation-item"><a href="#">Проверка знаний</a></li>
         </ul>
       </nav>
-      <a href="#"><img src="img/icon.svg" width="64" height="68" alt="Иконка аккаунта"></a>
+      <a href="#"><img class="logo-icon" src="img/icon.svg" width="16" height="18" alt="Иконка аккаунта"></a>
     </header>
     <main>
-    <div class="blocks">
       <section class="intro">
         <h2>Вводный раздел</h2>
         <p>Что мы знаем о финансах?</p>
@@ -49,7 +53,6 @@
           <p>О различных способах приумножения капитала</p>
           <a class="button" href="#">Начать обучение</a>
           <a class="button" href="#">Пройти тест</a>
-        </div>
         </section>
     </main>
     <footer class="main-footer">
@@ -58,7 +61,7 @@
             <p class="logo">
               <img src="img/logo.png" width="64" height="68" alt="Логотип школы">
             </p>
-            <p class="footer-info"> © 2023 <a href="#" class="consent">Школа финансовой грамотности "School for cool"</a>. Все права защищены.</p>
+            <p class="footer-info"> © 2023 Школа финансовой грамотности "School for cool". Все права защищены.</p>
         </div>
         <ul class="footer-navigation-topics">
             <li class="footer-navigation-topic">
