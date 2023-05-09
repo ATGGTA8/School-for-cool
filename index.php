@@ -12,9 +12,9 @@
     </a>
     <nav>
         <ul>
-            <li><a href="#">Главная</a></li>
+            <li><a href="index.php">Главная</a></li>
             <li><a href="#">Учебные материалы</a></li>
-            <li><a href="#">Пройти тест</a></li>
+            <li><a href="test.php">Пройти тест</a></li>
         </ul>
     </nav>
     <form>
