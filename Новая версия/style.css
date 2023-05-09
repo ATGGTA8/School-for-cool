@@ -1,0 +1,208 @@
+/* Стили для header */
+body {
+    background-image: url("../img/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: rotate 6s infinite alternate linear;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1E1A2B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .navigation-list {
+    color: #ffffff;
+  }
+
+  header a img {
+    border: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    position: relative;
+  }
+  
+  nav a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #0077c0;
+  }
+  
+  nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    display: none;
+  }
+  
+  nav ul ul li {
+    display: block;
+  }
+  
+  nav ul ul a {
+    padding: 10px 15px;
+    display: block;
+    color: #333;
+    font-size: 0.9em;
+  }
+  
+  nav ul ul a:hover {
+    color: #0077c0;
+  }
+  
+  nav li:hover > ul {
+    display: block;
+  }
+  
+  header .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077c0;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  header .button:hover {
+    background-color: #005ca3;
+  }
+  
+  /* Стили для main */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .intro {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+  }
+
+  .intro h2 {
+    margin: 0 0 20px;
+    font-size: 3em;
+  }
+  
+  .intro p {
+    margin: 0 0 20px;
+    font-size: 1.5em;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .content .left,
+  .content .right {
+    width: calc(50% - 20px);
+  }
+  
+  .content h2 {
+    margin-top: 0;
+  }
+  
+  .content section {
+    margin-top: 20px;
+  }
+  
+  .content .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .content .button:hover {
+    background-color: #005ca3;
+  }
+  
+  /* Стили для footer */
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-footer {
+    color: #ffffff;
+    background-color: #1E1A2B;
+  }
+  
+  .footer-info a {
+    color: #ffffff;
+  }
+  
+  .footer-navigation-topic h2 {
+    font-size: 20px;
+    line-height: 46px;
+  }
+  
+  .footer-navigation-item a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .footer-container {
+    width: 1120px;
+    margin: 0 auto;
+  }
+  
+  .footer-container {
+    padding-top: 70px;
+    padding-bottom: 95px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    width: 300px;
+  }
+  
+  .footer-navigation-topics {
+    width: 700px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
