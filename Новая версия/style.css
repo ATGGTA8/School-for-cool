@@ -108,12 +108,27 @@ header {
     padding: 20px;
   }
   
-  .intro {
+  .intro h2 {
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 200px 0;
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .intro  {
+    font-family: "Ubuntu", sans-serif;
+    font-style: regular;
+    font-weight: 300;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .intro h2 {
@@ -123,9 +138,29 @@ header {
   
   .intro p {
     margin: 0 0 20px;
-    font-size: 1.5em;
+    font-size: 1.4em;
+  }
+  details summary {
+    list-style: none;
   }
   
+  summary {
+    position: relative;
+    padding-bottom: 1px;
+  }
+  
+  summary::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  }
   .content {
     display: flex;
     flex-wrap: wrap;
@@ -153,7 +188,7 @@ header {
     border: 2px #1E1A2B solid;
     border-radius: 10px;
     padding: 10px;
-    max-width: 350px;
+    max-width: 200px;
     margin: 15px;
     display: inline-block;
   }
@@ -162,7 +197,7 @@ header {
     border: 2px #1E1A2B solid;
     border-radius: 10px;
     padding: 10px;
-    max-width: 350px;
+    max-width: 200px;
     margin: 15px;
     display: inline-block;
   }
@@ -171,7 +206,7 @@ header {
     border: 2px #1E1A2B solid;
     border-radius: 10px;
     padding: 10px;
-    max-width: 350px;
+    max-width: 200px;
     margin: 15px;
     display: inline-block;
   }
@@ -180,7 +215,7 @@ header {
     border: 2px #1E1A2B solid;
     border-radius: 10px;
     padding: 10px;
-    max-width: 350px;
+    max-width: 200px;
     margin: 15px;
     display: inline-block;
   }
@@ -191,11 +226,17 @@ header {
     padding: 20px;
     margin-top: 40px;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
   
   .main-footer {
     color: #ffffff;
     background-color: #1E1A2B;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
   }
   
   .footer-info  {
