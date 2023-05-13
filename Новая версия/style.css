@@ -6,7 +6,7 @@ body {
     animation: rotate 6s infinite alternate linear;
     font-family: "Ubuntu", sans-serif;
 }
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -222,21 +222,25 @@ header {
 
   /* Стили для footer */
   footer {
-    background-color: #f5f5f5;
+    background-color: #1E1A2B;
     padding: 20px;
     margin-top: 40px;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
+    height: 60px;
     width: 100%;
   }
   
   .main-footer {
     color: #ffffff;
     background-color: #1E1A2B;
-    position: absolute;
-  bottom: 0;
-  width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
   }
   
   .footer-info  {
