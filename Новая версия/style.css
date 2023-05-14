@@ -65,6 +65,7 @@ header, footer {
     background-color: #1E1A2B;
     border: none;
     display: none;
+    z-index: 1000;
   }
   
   nav ul ul li {
@@ -124,7 +125,7 @@ header, footer {
     font-weight: 300;
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #1E1A2B;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
@@ -142,7 +143,12 @@ header, footer {
   }
   details summary {
     list-style: none;
+    cursor: pointer;
+    
   }
+ details h2:hover {
+  color:#1E1A2B;
+ }
   
   summary {
     position: relative;
@@ -161,6 +167,7 @@ header, footer {
     padding: 3px;
     transform: rotate(45deg);
   }
+  
   .content {
     display: flex;
     flex-wrap: wrap;
@@ -222,7 +229,6 @@ header, footer {
 
   /* Стили для footer */
   footer {
-    background-color: #1E1A2B;
     padding: 20px;
     margin-top: 40px;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
@@ -235,7 +241,6 @@ header, footer {
   
   .main-footer {
     color: #ffffff;
-    background-color: #1E1A2B;
     position: fixed;
     bottom: 0;
     left: 0;
