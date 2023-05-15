@@ -34,6 +34,9 @@ header, footer {
   border-radius: 50%;
   border: 2px solid #ffffff;
 }
+.navigation-container{
+  text-align: center;
+}
 
   nav ul {
     list-style: none;
@@ -41,7 +44,7 @@ header, footer {
     padding: 0;
     display: flex;
   }
-  
+
   nav li {
     position: relative;
   }
@@ -66,6 +69,7 @@ header, footer {
     border: none;
     display: none;
     z-index: 1000;
+    border-radius: 20px;
   }
   
   nav ul ul li {
@@ -105,8 +109,10 @@ header, footer {
   /* Стили для main */
   main {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: auto;
+    padding: 40px;
+    background-attachment: fixed;
+    margin-bottom: 80px;
   }
   
   .intro h2 {
@@ -178,19 +184,18 @@ header, footer {
   .content .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #a470e0;
+    background-color: #8d4cd8;
     color: #fff;
     text-decoration: none;
     margin-right: 10px;
     margin-top: 10px;
     transition: background-color 0.3s;
     border-radius: 10px;
+    
   }
-  
-  .content .button:hover {
-    background-color: #c9adeefa;
+  .button {
+    cursor: pointer;
   }
-
   .content-1 {
     border: 2px #1E1A2B solid;
     border-radius: 10px;
@@ -235,22 +240,27 @@ header, footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    height: 60px;
+    height: 90px;
     width: 100%;
   }
   
+  
   .main-footer {
-    color: #ffffff;
     position: fixed;
     bottom: 0;
     left: 0;
     height: 80px;
     width: 100%;
+   
+  }
+  .footer-container {
+    display: flex;
+    justify-content: flex-start;
   }
   
   .footer-info  {
     color: #c2bcbcfa;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 18px;
   }
   
@@ -271,22 +281,26 @@ header, footer {
   .footer-container {
     width: 1120px;
     margin: 0 auto;
+    font-size: small;
   }
   
   .footer-container {
-    padding-top: 70px;
-    padding-bottom: 95px;
+    padding-top: 110px;
+    padding-bottom: 110px;
     padding-left: 80px;
     padding-right: 80px;
-  }
-  
-  .footer-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
   }
   
   .footer-column {
-    width: 300px;
+    width: 290px;
+  }
+
+  h3{
+    font-weight: bold;
   }
   
   .footer-navigation-topics {
@@ -308,3 +322,4 @@ header, footer {
   .footer-navigation {
     list-style-type: none;
   }
+ 
