@@ -109,6 +109,7 @@ if(isset($_POST['submit'])) {
 <html>
 <head>
     <title>Тест на финансовую грамотность</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Тест на финансовую грамотность</h1>
